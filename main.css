@@ -1,0 +1,247 @@
+body {
+  background-color: hsl(217, 0%, 96%);
+}
+
+.navbar-custom  {
+  color: white;
+  background-color: hsl(208, 91%, 65%, 0.6);
+}
+
+.icon-bar {
+  background-color: white;
+}
+
+.navbar-toggle {
+  border: 2px solid white;
+  margin-left: 5px;
+}
+
+a {
+  color: white;
+}
+
+
+.navbar-brand-centered {
+        position: absolute;
+        left: 50%;
+        display: block;
+        width: 160px;
+        text-align: center;
+        background-color: transparent;
+        font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+    }
+   .navbar-brand-centered {
+        margin-left: -80px;
+    }
+
+.navbar-toggle {
+ float: left;
+}
+
+.col-xs-3 {
+  background-color:red;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+.masthead {
+  height: 75vh;
+  background-image: url('assets/Nqjki5J.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#profilpic {
+  max-height: 40vh;
+  margin-top: 8rem;
+}
+
+.name {
+ color: white;
+ font-size: 3rem;
+ margin-top: 1rem;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+}
+
+.content {
+  padding-bottom: 4rem
+}
+
+.col-xs-6,
+.col-xs-8,
+.col-xs-12,
+.col-xs-4 {
+ 
+}
+
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.panel-custom {
+  background:hsl(208, 91%, 75%);
+}
+
+.pic {
+  height: 8rem;
+}
+
+h2::after {
+   content: "";
+  display: block;
+  height: .1875rem;
+  width: 15vw;
+  margin: 1.5rem auto;
+  background-color: hsl(208, 91%, 55%);
+}
+
+h2,
+.dif {
+ font-family: 'Oswald', sans-serif;
+ color: hsl(208, 0%, 0%)
+}
+
+p,
+h3,
+h4,
+h5 {
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+  color: hsl(0, 0%, 30%);
+}
+
+.dif {
+  font-size: 32px;
+}
+
+.col-xs-6 p{
+  font-size: 18px;
+}
+
+.col-xs-12 h4 {
+  font-weight: bold;
+}
+
+h5 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.panel-heading h4 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  color: gray;
+}
+
+.col-xs-12 li {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+.hd-title {
+  color: hsl(208, 91%, 75%);
+  margin-top: 6px;
+  font-size: 22px;
+}
+
+
+.col-xs-6 img {
+ margin: 8px;
+}
+
+.my-container {
+  margin: 8px;
+}
+
+.btn-custom {
+  border: 2px solid white;
+  border-radius: 25px;
+}
+.col-xs-10 a {
+  color: hsl(208, 91%, 55%);
+    font-family: 'Roboto', sans-serif;
+}
+.socmed {
+float: left;
+margin-top:10px;
+  padding: ;
+ 
+   
+
+  
+  
+}
+
+.zerohero {
+  float: left;
+}
+
+ul.social-network {
+	list-style: none;
+	display: inline;
+	margin-left:0 !important;
+	padding: 0;
+}
+ul.social-network li {
+	display: inline;
+	margin: 0 5px;
+}
+
+
+.social-circle li a {
+	display:inline-block;
+	position:relative;
+	margin:0 auto 0 auto;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	text-align:center;
+	width: 35px;
+	height: 35px;
+	font-size:20px;
+	background-color: 
+}
+.social-circle li i {
+	margin:0;
+	line-height:35px;
+	text-align: center;
+}
+
+.social-circle li a:hover i, .triggeredHover {
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-ms--transform: rotate(360deg);
+	transform: rotate(360deg);
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	transition: all 0.2s;
+}
+.social-circle i {
+	color: #fff;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-o-transition: all 0.8s;
+	-ms-transition: all 0.8s;
+	transition: all 0.8s;
+}
+
+.icoLinkedin {
+  background-color:#007bb7;
+}
+
+.icoTwitter {
+  background-color:#33ccff;
+}
+.icoFacebook {
+  background-color:#3B5998;
+}
